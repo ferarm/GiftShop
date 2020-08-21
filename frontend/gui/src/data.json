@@ -1,0 +1,96 @@
+{
+    "products": [
+        {
+            "_id":"gaming_monitor",
+            "title":"Samsung Gaming Monitor",
+            "image": "/imgs/samsung_gaming_monitor.jpg",
+            "description":"About gaming monitor",
+            "category":"Computers",
+            "price": 299.9,
+            "stock":  10,
+            "sizes": ["24", "29", "22"]
+        } , 
+        {
+            "_id":"gaming_mouse",
+            "title":"Pictek Gaming Mouse",
+            "image": "/imgs/pictek_gaming_mouse.jpg",
+            "description":"About gaming mouse",
+            "category":"Computers",
+            "price": 19.9,
+            "stock":  200
+            
+        },
+        {
+            "_id":"gaming_keyboard",
+            "title":"Npet Gaming Keyboard",
+            "image": "/imgs/npet_gaming_keyboard.jpg",
+            "description":"About gaming keyboard",
+            "category":"Computers",
+            "price": 25.9,
+            "stock":  200           
+        },
+        {
+            "_id":"surround_system",
+            "title":"Surround Sound Speaker System",
+            "image": "/imgs/logitech_ssss.jpg",
+            "description":" Surround Sound Speaker System with Bluetooth",
+            "category":"Computers",
+            "price": 110,
+            "stock":  5            
+        },
+        {
+            "_id":"apple_ipad",
+            "title":"Apple iPad Pro",
+            "image": "/imgs/apple_ipad.jpg",
+            "description":"About iPad PRO",
+            "category":"Smartphones",
+            "price": 655,
+            "stock":  10            
+        },
+        {
+            "_id":"apple_iphone11",
+            "title":"Apple iPhone 11",
+            "image": "/imgs/apple_iphone11.jpg",
+            "description":"About iPhone 11",
+            "category":"Smartphones",
+            "price": 850,
+            "stock":  50
+        },
+        {
+            "_id":"samsung_s20",
+            "title":"Samsung S20",
+            "image": "/imgs/samsung_s20.jpg",
+            "description":"About Samsung S20",
+            "category":"Smartphones",
+            "price": 700,
+            "stock":  20
+        },
+        {
+            "_id":"apple_iphonecase",
+            "title":"Apple iPhone Case",
+            "image": "/imgs/apple_iphone11_case.jpg",
+            "description":"About iPhone 11 cases",
+            "category":"Smartphones",
+            "price": 850,
+            "stock":  50
+        },
+        {
+            "_id":"adidas_soccerball",
+            "title":"Adidas Soccer Ball",
+            "image": "/imgs/adidas_soccer_ball.jpg",
+            "description":"About Soccer Ball",
+            "category":"Sports",
+            "price": 19.9,
+            "stock":  100
+        },
+        {
+            "_id":"wilson_basketball",
+            "title":"Wilson BasketBall",
+            "image": "/imgs/wilson_basketball.jpg",
+            "description":"About BasketBall",
+            "category":"Sports",
+            "price": 65.9,
+            "stock":  50
+        }
+    ]
+}
