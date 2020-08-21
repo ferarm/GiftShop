@@ -5,12 +5,24 @@ import { Link, withRouter } from 'react-router-dom';
 import * as actions from '../store/actions/auth';
 import { connect } from 'react-redux';
 import MenuItem from 'antd/lib/menu/MenuItem';
+import data from "../data.json";
+import Products from '../components/Products';
 
 const { Header, Content, Footer } = Layout;
 
 class CustomLayout extends React.Component {
+    constructor(){
+        super();
+        this.state = {
+            products: data.products,
+            size: "",
+            sort: "",
+
+        };
+    }
     render() {
     return (
+        <div className="grid-container">
         <Layout className="layout">
             <Header>
             <div className="logo" />
@@ -49,8 +61,17 @@ class CustomLayout extends React.Component {
                 </Menu.Item>              
                 
             </Menu>
-            </Header>
+            </Header> 
             <main>
+                <div className="content">
+                    <div className="main">
+                        <Products products={this.state.products}></Products>
+                        
+                    </div>
+                    <div className="sidebar">
+                        Cart Items
+                    </div>
+                </div>
             <Content style={{ padding: '0 50px' }}>
             <p/>
             <input size="30" type="search" placeholder="Search" />&nbsp;
@@ -70,7 +91,9 @@ class CustomLayout extends React.Component {
             <Footer style={{ textAlign: 'center' }}>
             GiftShop © 2020 Created by Fernando Martínez
             </Footer>
+            
         </Layout>
+        </div>
     );
     }
 }
